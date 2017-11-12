@@ -55,11 +55,11 @@ The script takes 6 parameters:
 
 ## FAQ
 
-**Can I trust this script?**
+### Can I trust this script?
 
 Check it out. The code is here. If you have a question, ask on IRC in channels [#AppImage](https://webchat.freenode.net/?channels=appimage) or [#libreoffice-appimage](https://webchat.freenode.net/?channels=libreoffice-appimage).
 
-**Can I trust the AppImage, when it runs?**
+### Can I trust the AppImage, when it runs?
 
 Do you trust the LibreOffice code you run, if it is installed from RPM or DEB packages? Are you aware, that their respective *pre/postinst* scripts are run by your distro's package manager with *root* privileges? AppImage does not use any root privileges at all!
 
@@ -78,25 +78,25 @@ Do you trust the LibreOffice code you run, if it is installed from RPM or DEB pa
   
   This will reveal the (temporary) mount point where the AppImage filesystem is (read-only) mounted while LibreOffice runs. You can move into that directory freely and look around and even copy files to someplace outside the AppImage. Then you can keep investigating them when the AppImage does not run any more, once you closed down LibreOffice....
   
-**Can I create different versions of LibreOffice AppImages and store them on the same system?**
+### Can I create different versions of LibreOffice AppImages and store them on the same system?
 
 Yes.
 
-**Can I RUN different versions of LibreOffice AppImages at the same time on the same system?**
+### Can I RUN different versions of LibreOffice AppImages at the same time on the same system?
 
 Yes.
 
-**How do I get rid of the AppImage again, should I no longer want it?**
+### How do I get rid of the AppImage again, should I no longer want it?
 
 Just delete the one AppImage file.
 
-**Where do I have to store the AppImages?**
+### Where do I have to store the AppImages?
 
 Store them anywhere you want.
 
 If you like a neat environment, we'd recommend to create a directory such as *`$HOME/AppImages`* and store them all there.
 
-**It's awkward to run an AppImage from the command line with such a long name!**
+### It's awkward to run an AppImage from the command line with such a long name!
 
 Is that a question? We agree.
 
@@ -106,7 +106,7 @@ Then just create a symlink in there by the name of *loffice* (or whatever you li
 
 Now you can type *loffice* to run the AppImage.
 
-**The symlinking stuff is nice, but I want it NICER!**
+### The symlinking stuff is nice, but I want it NICER!
 
 Check out (the completely OPTIONAL) [AppImageKit](https://github.com/AppImage/AppImageKit).
 
